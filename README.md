@@ -17,3 +17,5 @@ docker compose up -d
 - Sarebbe bello averlo senza javascript
 - Magari multilingua
 - Sicuramente senza google
+- Aggiungere facts
+- 
