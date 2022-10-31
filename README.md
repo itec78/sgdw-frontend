@@ -18,4 +18,4 @@ docker compose up -d
 - Magari multilingua
 - Sicuramente senza google
 - Aggiungere facts
-- 
+- Paginazione
