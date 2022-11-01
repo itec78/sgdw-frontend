@@ -61,7 +61,7 @@ const ResultsList = ({paths}) => {
       <ResultsListWrapper>{resultsListItems}</ResultsListWrapper>
       {numHiddenPaths > 0 && (
         <ResultsListOtherPathsText>
-          Ci sono altri {numHiddenPaths} percorsi nascosti{numHiddenPaths !== 1 && 's'}
+          Ci sono altri {numHiddenPaths} percorsi nascosti
         </ResultsListOtherPathsText>
       )}
     </React.Fragment>

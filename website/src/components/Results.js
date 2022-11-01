@@ -148,7 +148,7 @@ class Results extends Component {
         <ResultsMessage>
           {this.renderSnarkyContent(degreesOfSeparation)}
           <p>
-            Trovato{' '}
+            Ho trovato{' '}
             <b>
               {getNumberWithCommas(paths.length)} {pathOrPaths}
             </b>{' '}

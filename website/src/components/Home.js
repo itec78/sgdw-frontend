@@ -42,9 +42,9 @@ class Home extends Component {
 
         <Modal isOpen={this.state.showModal} onRequestClose={this.handleCloseModal}>
           <p>
-            Inspired by the concept of{' '}
-            <a href="https://en.wikipedia.org/wiki/Six_degrees_of_separation">
-              six degrees of separation
+            Ispirato dalla teoria dei{' '}
+            <a href="https://it.wikipedia.org/wiki/Sei_gradi_di_separazione">
+              sei gradi di separazione
             </a>
             , <b>Six Degrees of Wikipedia</b> traverses hyperlinks on Wikipedia to find the least
             number of clicks it takes to navigate between any of the nearly six million pages on the
@@ -63,7 +63,7 @@ class Home extends Component {
           </p>
         </Modal>
 
-        <P>Find the shortest paths from</P>
+        <P>Trova i percorsi più brevi tra</P>
         <InputFlexContainer>
           <SourcePageInputContainer />
           <SwapInputValuesButton />
