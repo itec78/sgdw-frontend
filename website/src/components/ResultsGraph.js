@@ -98,14 +98,14 @@ class Graph extends Component {
 
     return map(range(0, pathsLength), (i) => {
       if (i === 0 && pathsLength === 1) {
-        return 'Start / end page';
+        return 'Pagina iniziale / finale';
       } else if (i === 0) {
-        return 'Start page';
+        return 'Pagina iniziale';
       } else if (i === pathsLength - 1) {
-        return 'End page';
+        return 'Pagina finale';
       } else {
-        const degreeOrDegrees = i === 1 ? 'degree' : 'degrees';
-        return `${i} ${degreeOrDegrees} away`;
+        const degreeOrDegrees = i === 1 ? 'grado' : 'gradi';
+        return `${i} ${degreeOrDegrees} di distanza`;
       }
     });
   }
@@ -346,8 +346,8 @@ class Graph extends Component {
         {this.renderLegend()}
 
         <Instructions>
-          <p>Drag to pan. Scroll to zoom.</p>
-          <p>Click node to open Wikipedia page.</p>
+          <p>Trascina per scorrere. Scorri per ingrandire.</p>
+          <p>Clicca un nodo per aprire la pagina di Wikipedia.</p>
         </Instructions>
 
         <ResetButton onClick={this.resetGraph.bind(this, true)}>
