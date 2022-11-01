@@ -7,8 +7,7 @@ const NavLinks = ({handleOpenModal}) => (
     <TextLink href="#" onClick={() => handleOpenModal()}>
       About
     </TextLink>
-    <TextLinkInternal to="/blog">Blog</TextLinkInternal>
-    <TextLink href="https://github.com/jwngr/sdow">GitHub</TextLink>
+    <TextLink href="https://github.com/seigradidiwikipedia">GitHub</TextLink>
   </Wrapper>
 );
 
