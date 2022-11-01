@@ -47,7 +47,7 @@ class Home extends Component {
               Sei gradi di separazione
             </a>
             , <b>Sei gradi di Wikipedia</b> attraversa i collegamenti di Wikipedia per trovare il
-            numero minimo di click per navigare tra ciascuna delle quasi 2 miglioni di pagine
+            numero minimo di click per navigare tra ciascuna delle quasi 2 milioni di pagine
             sulla più grande enciclopedia mondiale libera.
           </p>
           <p>
