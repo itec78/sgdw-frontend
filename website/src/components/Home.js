@@ -44,22 +44,23 @@ class Home extends Component {
           <p>
             Ispirato dalla teoria dei{' '}
             <a href="https://it.wikipedia.org/wiki/Sei_gradi_di_separazione">
-              sei gradi di separazione
+              Sei gradi di separazione
             </a>
-            , <b>Six Degrees of Wikipedia</b> traverses hyperlinks on Wikipedia to find the least
-            number of clicks it takes to navigate between any of the nearly six million pages on the
-            world's largest free online encyclopedia.
+            , <b>Sei gradi di Wikipedia</b> attraversa i collegamenti di Wikipedia per trovare il
+            numero minimo di click per navigare tra ciascuna delle quasi 2 miglioni di pagine
+            sulla più grande enciclopedia mondiale libera.
           </p>
           <p>
-            Enter the titles of two Wikipedia pages in the boxes on this site, click the "Go!"
-            button, and discover just how connected Wikipedia really is.
+            Inserisci il titolo di due pagine di Wikipedia nelle caselle di questo sito, clicca sul
+            pulsante "Vai!" e scopri come sono collegate le pagine di Wikipedia.
           </p>
           <p>
-            Wikipedia is a registered trademark of the Wikimedia Foundation. This site is made by a
-            fan with no affiliation to that organization.
+            Wikipedia è un marchio registrato della Wikimedia Foundation.
+            Questo sito è fatto da appassionati senza affiliazione all'organizzazione.
           </p>
           <p>
-            A project by <a href="https://jwn.gr/">Jacob Wenger</a>.
+            Un progetto di <a href="https://jwn.gr/">Jacob Wenger</a>.
+            Modificato e tradotto in italiano da Odoacre e Itec.
           </p>
         </Modal>
 

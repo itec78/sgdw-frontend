@@ -34,7 +34,7 @@ const SwapButton = styled.svg`
 
 const SwapInputValuesButton = ({sourcePageTitle, targetPageTitle, swapPageTitles}) => {
   if (sourcePageTitle === '' || targetPageTitle === '') {
-    return <P>to</P>;
+    return <P>e</P>;
   } else {
     return (
       <SwapButton
