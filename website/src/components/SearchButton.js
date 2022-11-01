@@ -22,7 +22,7 @@ const SearchButton = ({isFetchingResults, fetchShortestPaths}) => {
     return null;
   }
 
-  return <SearchButtonWrapper onClick={fetchShortestPaths}>Go!</SearchButtonWrapper>;
+  return <SearchButtonWrapper onClick={fetchShortestPaths}>Vai!</SearchButtonWrapper>;
 };
 
 export default SearchButton;

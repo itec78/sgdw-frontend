@@ -57,11 +57,11 @@ const ResultsList = ({paths}) => {
 
   return (
     <React.Fragment>
-      <ResultsListHeader>Individual paths</ResultsListHeader>
+      <ResultsListHeader>Percorsi singoli</ResultsListHeader>
       <ResultsListWrapper>{resultsListItems}</ResultsListWrapper>
       {numHiddenPaths > 0 && (
         <ResultsListOtherPathsText>
-          Not showing {numHiddenPaths} more path{numHiddenPaths !== 1 && 's'}
+          Ci sono altri {numHiddenPaths} percorsi nascosti{numHiddenPaths !== 1 && 's'}
         </ResultsListOtherPathsText>
       )}
     </React.Fragment>
