@@ -71,13 +71,13 @@ class Results extends Component {
     if (isSourceRedirected && isTargetRedirected) {
       redirectContent = (
         <p>
-          <b>Nota:</b> La pagina inziale e finale sono redirect.
+          <b>Nota:</b> La pagina iniziale e quella finale sono redirect.
         </p>
       );
     } else if (isSourceRedirected) {
       redirectContent = (
         <p>
-          <b>Nota:</b> La pagina inziale è un redirect.
+          <b>Nota:</b> La pagina iniziale è un redirect.
         </p>
       );
     } else if (isTargetRedirected) {
