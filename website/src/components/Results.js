@@ -23,31 +23,31 @@ class Results extends Component {
     if (degreesOfSeparation === 0) {
       snarkyContent = (
         <React.Fragment>
-          <b>Seriously?</b> Talk about overqualified for the job...
+          <b>Davvero?</b> Lavoro troppo qualificato...
         </React.Fragment>
       );
     } else if (degreesOfSeparation === 1) {
       snarkyContent = (
         <React.Fragment>
-          <b>Welp...</b> thanks for making my job easy.
+          <b>Beh...</b> Grazie per avermi reso il lavoro facile.
         </React.Fragment>
       );
     } else if (degreesOfSeparation === 5) {
       snarkyContent = (
         <React.Fragment>
-          <b>*wipes brow*</b> I really had to work for this one.
+          <b>*Mi asciugo la fronte*</b> E' stato un duro lavoro!.
         </React.Fragment>
       );
     } else if (degreesOfSeparation === 6) {
       snarkyContent = (
         <React.Fragment>
-          <b>*breathes heavily*</b> What a workout!
+          <b>*Col fiantone*</b> Che allenamento!
         </React.Fragment>
       );
     } else if (degreesOfSeparation >= 7) {
       snarkyContent = (
         <React.Fragment>
-          <b>*picks jaw up from floor*</b> That was intense!
+          <b>*Raccogliete le vostre mandibole dal pavimento*</b> Questo è stato intenso!
         </React.Fragment>
       );
     }
